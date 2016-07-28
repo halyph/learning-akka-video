@@ -15,3 +15,7 @@ Following warning is shown:
 	setting 'akka.actor.warn-about-java-serializer-usage'
 	
 It does not cause any problems but still will be nice to fix.
+
+## Akka Persistence 
+- [akka-persistence-cassandra](https://github.com/akka/akka-persistence-cassandra)
+- [akka-persistence-jdbc](https://github.com/dnvriend/akka-persistence-jdbc)
