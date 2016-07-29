@@ -14,6 +14,6 @@ object Persistent extends App {
   counter ! Cmd(Decrement(3))
   counter ! "print"
 
-  Thread.sleep(1000)
+  Thread.sleep(2000)
   system.terminate()
 }

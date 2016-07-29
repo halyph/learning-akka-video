@@ -9,7 +9,8 @@ lazy val aggregatedProjects: Seq[ProjectReference] = Seq(
   playingWithActors,
   actorPaths,
   actorRouting,
-  hotswapBehavior
+  hotswapBehavior,
+  persistence
 )
 
 lazy val root = Project(
@@ -24,5 +25,6 @@ lazy val playingWithActors = project("playing-with-actors")
 lazy val actorPaths = project("actor-paths")
 lazy val actorRouting = project("akka-routing")
 lazy val hotswapBehavior = project("hotswap-behavior")
+lazy val persistence = project("persistence")
 
 def project(id: String) = Project(id, base = file(id))
